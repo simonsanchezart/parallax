@@ -37,6 +37,9 @@ pip install -r requirements.txt
 
 ## Usage
 
+Fastest way to use it is `parallax.py`.
+This will get all .png's in `cwd` and set layer speeds automatically.
+
 ```
 usage: parallax.py [-h] [-i [INPUT ...]] [-fd FRAME_DURATION] [-os OUTPUT_SCALE] [-ls [LAYER_SPEEDS ...]] [-d DIRECTION] [-o OUTPUT]
 
