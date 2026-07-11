@@ -20,8 +20,8 @@ def load_layers(file_paths):
         try:
             print(f"{Fore.GREEN}Loading {f}")
             layers.append(Image.open(f))
-        except:
-            print(f"{Fore.RED}Couldn't load {f}")
+        except Exception as e:
+            print(f"{Fore.RED}Couldn't load {f}: {e}")
             exit(1)
 
 
