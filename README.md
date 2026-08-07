@@ -29,15 +29,20 @@ Done!
 
 ## Installation
 
-To use this tool, ensure you have Python installed. You can install the required dependencies using pip:
+To use this tool, ensure you have [`uv`](https://docs.astral.sh/uv/) installed. You can install the required dependencies and set up the virtual environment with:
 
 ```sh
-pip install -r requirements.txt
+uv sync
 ```
 
 ## Usage
 
-Fastest way to use it is `parallax.py`.
+You can run the script using `uv run`:
+
+```sh
+uv run parallax.py
+```
+
 This will get all .png's in `cwd` and set layer speeds automatically.
 
 ```
